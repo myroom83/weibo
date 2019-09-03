@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>@yield('title', 'Weibo App') - Laravel 入门教程</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
@@ -8,7 +10,7 @@
 
   <body>
 
-  @include('layouts._header')
+    @include('layouts._header')
 
     <div class="container">
       <div class="offset-md-1 col-md-10">
